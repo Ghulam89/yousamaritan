@@ -83,7 +83,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to={"#"} className="tw-text-black">
+            <Link to={"/staking"} className="tw-text-black">
               Staking
             </Link>
           </li>
@@ -180,12 +180,12 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/staking"} className="tw-text-black">
+            <Link to={"#"} className="tw-text-black">
               Team
             </Link>
           </li>
           <li>
-            <Link to={"#"} className="tw-text-black">
+            <Link to={"/staking"} className="tw-text-black">
               Staking
             </Link>
           </li>

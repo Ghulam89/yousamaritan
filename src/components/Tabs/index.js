@@ -9,10 +9,10 @@ const Tabs = ({ tabs, defaultTab, className }) => {
         {tabs.map((tab) => (
           <button
             key={tab.title}
-            className={`tw-px-4 tw-py-4 ${className} ${
+            className={`tw-px-4  tw-rounded-lg tw-py-4 ${className} ${
               activeTab === tab.title
                 ? "tw-w-full tw-text-white  tw-bg-button-gradient tw-bg-BG"
-                : " tw-border-2  tw-border-white tw-text-white tw-w-full"
+                : " tw-border-2  tw-border-[#456DA7] tw-text-[#456DA7] border tw-w-full"
             }`}
             onClick={() => setActiveTab(tab.title)}
           >

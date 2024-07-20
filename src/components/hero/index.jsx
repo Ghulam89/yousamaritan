@@ -70,7 +70,7 @@ GET VIDEO <FaArrowRight color="#456DA7" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
-            {openVideo === true ? (
+            {!openVideo === true ? (
               <div className="row tw-relative">
                 <div className="col-md-10 tw-p-0 tw-mx-auto">
                   <div className="  tw-border-[#269FF0] tw-border-2 tw-rounded-2xl  p-4 tw-h-auto tw-bg-cover bg-hero-cut">
