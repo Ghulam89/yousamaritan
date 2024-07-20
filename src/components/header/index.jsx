@@ -83,42 +83,11 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/staking"} className="tw-text-black">
+            <Link to={"#"} className="tw-text-black">
               Staking
             </Link>
           </li>
-          <li className="tw-relative">
-            <button
-              className="tw-text-white  tw-flex tw-items-center"
-              onClick={() => setHoldersDropdownOpen(!holdersDropdownOpen)}
-            >
-              Holders
-              <FaAngleDown color="white" className=" tw-ml-3" />
-            </button>
-            {holdersDropdownOpen && (
-              <ul className="tw-absolute tw-p-0 tw-bg-white tw-mt-2 tw-py-2 tw-w-56 tw-rounded tw-shadow-lg tw-z-50">
-                <li>
-                  <Link
-                    className="tw-text-black tw-flex tw-justify-between tw-items-center text-sm tw-py-2 tw-px-3"
-                    to={"/buy4less"}
-                  >
-                    <span className="  tw-text-sm">Buy4Less</span>
-                    <span className=" tw-text-sm">Comming Soon</span>
-                  </Link>
-                </li>
-                <hr className=" tw-m-0" />
-                <li>
-                  <Link
-                    className="tw-text-black  tw-flex tw-justify-between tw-items-center text-sm tw-px-4 tw-py-2"
-                    to={"/stake4pie"}
-                  >
-                    <span className="  tw-text-sm">Stake4PIE</span>
-                    <span className=" tw-text-sm">Comming Soon</span>
-                  </Link>
-                </li>
-              </ul>
-            )}
-          </li>
+        
           <li>
             <Link
               to={"/"}
@@ -173,90 +142,54 @@ const Header = () => {
           </div>
 
           <ul className="tw-p-0 tw-relative tw-px-9 tw-pt-3 tw-border-t">
-            <li>
-              <Link
-                onClick={() => setOpen(false)}
-                className={`${
-                  isActive("/") ? " tw-text-[#2CBEF6]" : "tw-text-white"
-                }tw-text-white`}
-                to={"/"}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={() => {
-                  handleNavigate("/", "aboutSection");
-                  setOpen(false);
-                }}
-                className="tw-text-white"
-              >
-                About us
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={() => {
-                  handleNavigate("/", "tokenSection");
-                  setOpen(false);
-                }}
-                className="tw-text-white"
-              >
-                Tokenomics
-              </Link>
-            </li>
-            <li>
-              <Link
-                to={"/"}
-                onClick={() => {
-                  handleNavigate("/", "roadSection");
-                  setOpen(false);
-                }}
-                className="tw-text-white"
-              >
-                Road Map
-              </Link>
-            </li>
-            <li>
-              <Link to={"/staking"} className="tw-text-white">
-                Staking
-              </Link>
-            </li>
-            <li className="tw-relative tw-text-white">
-              <button
-                className="  tw-text-white tw-flex tw-items-center"
-                onClick={() => setHoldersDropdownOpen(!holdersDropdownOpen)}
-              >
-                Holders
-                <FaAngleDown color="white" className=" tw-ml-3" />
-              </button>
-              {holdersDropdownOpen && (
-                <ul className="tw-absolute tw-p-0 tw-bg-white tw-mt-2 tw-py-2 tw-w-56 tw-rounded tw-shadow-lg tw-z-50">
-                  <li>
-                    <Link
-                      className="tw-text-black tw-flex tw-justify-between tw-items-center text-sm tw-py-2 tw-px-3"
-                      to={"/buy4less"}
-                    >
-                      <span className="  tw-text-sm">Buy4Less</span>
-                      <span className=" tw-text-sm">Comming Soon</span>
-                    </Link>
-                  </li>
-                  <hr className=" tw-m-0" />
-                  <li>
-                    <Link
-                      className="tw-text-black  tw-flex tw-justify-between tw-items-center text-sm tw-px-4 tw-py-2"
-                      to={"/stake4pie"}
-                    >
-                      <span className="  tw-text-sm">Stake4PIE</span>
-                      <span className=" tw-text-sm">Comming Soon</span>
-                    </Link>
-                  </li>
-                </ul>
-              )}
-            </li>
+          <li>
+            <Link
+              className={`${
+                isActive("/") ? " tw-text-black" : "tw-text-black"
+              }tw-text-white`}
+              to={"/"}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/"}
+              onClick={() => handleNavigate("/", "aboutSection")}
+              className="tw-text-black"
+            >
+              About us
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/"}
+              onClick={() => handleNavigate("/", "tokenSection")}
+              className="tw-text-black"
+            >
+              Tokenomics
+            </Link>
+          </li>
+          <li>
+            <Link
+              to={"/"}
+              onClick={() => handleNavigate("/", "roadSection")}
+              className="tw-text-black"
+            >
+              Road Map
+            </Link>
+          </li>
+          <li>
+            <Link to={"/staking"} className="tw-text-black">
+              Team
+            </Link>
+          </li>
+          <li>
+            <Link to={"#"} className="tw-text-black">
+              Staking
+            </Link>
+          </li>
+          
             <li>
               <Link
                 to={"/"}

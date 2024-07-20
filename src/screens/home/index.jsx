@@ -15,9 +15,9 @@ const Home = () => {
     <Brands/>
     </div>
       {/* <Vision /> */}
-      <Tokenomics/>
+      {/* <Tokenomics/> */}
       {/* <RoadMap/> */}
-      {/* <Team/> */}
+      <Team/>
       <FAQ/>
       <Footer/>
     </div>

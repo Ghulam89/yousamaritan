@@ -59,12 +59,14 @@ const Hero = () => {
                 
               />
 
-              <Button
+              <button
                 onClick={() => setOpenVideo(true)}
-                label={"GET VIDEO"}
-                className={"  tw-bg-white border tw-mt-7"}
-                rIcons={<FaArrowRight color="white" />}
-              />
+                
+                className={"  tw-bg-white tw-px-5  tw-gap-2 tw-rounded-md  tw-border-[#456DA7] tw-flex tw-items-center  tw-text-[#456DA7] tw-border tw-mt-7"}
+                
+              >
+GET VIDEO <FaArrowRight color="#456DA7" />
+              </button>
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
@@ -120,7 +122,7 @@ const Hero = () => {
 
                     <div className="tw-flex tw-w-full tw-gap-3 tw-justify-center">
                       <div
-                        className={`tw-rounded-md  tw-border-gray-400 tw-border-2 tw-h-[48px] tw-w-full tw-justify-between tw-px-3 tw-flex tw-items-center tw-mt-2 tw-bg-gradient ${getBorderColor(
+                        className={`tw-rounded-md  tw-border-[#456DA7] tw-border-2 tw-h-[48px] tw-w-full tw-justify-between tw-px-3 tw-flex tw-items-center tw-mt-2 tw-bg-gradient ${getBorderColor(
                           "MATIC"
                         )}`}
                         onClick={() => handleSelect("MATIC")}
@@ -134,7 +136,7 @@ const Hero = () => {
                         <p className="tw-m-0 tw-text-black">MATIC</p>
                       </div>
                       <div
-                        className={`tw-rounded-md tw-w-full tw-h-[48px] tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2  ${getBorderColor(
+                        className={`tw-rounded-md tw-w-full tw-h-[48px] tw-border-[#456DA7] tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2  ${getBorderColor(
                           "USDT"
                         )}`}
                         onClick={() => handleSelect("USDT")}
@@ -156,7 +158,7 @@ const Hero = () => {
                           $ {selectedCurrency} Matic you pay
                         </p>
 
-                        <div className=" tw-rounded-md border tw-relative tw-mt-2   tw-bg-gradient">
+                        <div className=" tw-rounded-md tw-border-2 tw-relative tw-mt-2 tw-border-[#456DA7]  tw-bg-gradient">
                           <input
                             className=" tw-bg-transparent  tw-w-full tw-px-3 tw-py-2 tw-text-black tw-pl-12 tw-outline-none"
                             defaultValue={0}
@@ -182,7 +184,7 @@ const Hero = () => {
                         Samaritan Receive
                         </p>
 
-                        <div className=" tw-rounded-md border tw-relative  tw-mt-2  tw-bg-gradient">
+                        <div className=" tw-rounded-md tw-border  tw-border-[#456DA7] tw-relative  tw-mt-2  tw-bg-gradient">
                           <input
                             className=" tw-bg-transparent  tw-pl-12 tw-w-full tw-px-3 tw-py-2 tw-text-black tw-outline-none"
                             defaultValue={0}

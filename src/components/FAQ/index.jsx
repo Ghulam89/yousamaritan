@@ -6,8 +6,8 @@ const FAQ = () => {
         {
           key: 1,
           title:
-            "How many $EBM I need to be eligible in Buy4Less?",
-          data: "Through Buy4Less, $EBM holders can purchase various cryptocurrencies at discounted rates ranging from 0.1% to 10% basing on monthly average $EBM holdings.",
+            "What is Smariten Token?",
+          data: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more",
           isOpen: false,
         },
         {
@@ -20,38 +20,38 @@ const FAQ = () => {
         {
           key: 3,
           title:
-            "What is Stake4PIE?",
+            "What cryptocurrencies can I use to purchase?",
             data: "By staking $EBM tokens, community members can earn passive income through daily automated distribution of 40-60% of the company's revenue, fostering community engagement and financial growth.",
             isOpen: false,
         },
         {
           key: 4,
-          title: "4. How to participate in Stake4PIE?",
+          title: "How can I participate in the Smaritan Token sale?",
           data: "Upon starting of operations, the program start will be announced. Like staking in native token rewards but this staking will reward in USDT/USDC on daily basis.",
           isOpen: false,
         },
         {
           key: 5,
           title:
-            "5. What are benefits of $EBM to the Community?",
+            "How do I benefit from the Smaritan Token?",
             data: "Other than Buy4Less and Stake4PIE, we aim to boost growth of True DeFi blockchains like Bitcoin, Litecoin, Zilliqa, Ethereum Classic, Raven, Kaspa, Dodge, BlockDAG etc.",
             isOpen: false,
         },
         {
           key: 6,
-          title: "6. What are $EBM presale security measures? ",
+          title: "How do I benefit from the Smaritan Token?",
           data: "Tokens bought through presale are not transferable and tradable until listed for trading officially. Tokens allocated for our operations, marketing, teams and advisors are locked with linear vesting for periods from 2- 5 years.",
           isOpen: false,
         },
         {
             key: 7,
-            title: "7. Maintaining $EBM value?",
+            title: "How do I benefit from the Smaritan Token?",
             data: "We strongly advise Stake, HODL $EBM from day one for native token rewards and to reap benefits from Buy4Less and Stake4PIE programs.",
             isOpen: false,
           },
           {
             key: 8,
-            title: "8. Has the project undergone any audits or security assessments?",
+            title: "How do I benefit from the Smaritan Token?",
             data: "Yes, our smart contract audits can be verified here.",
             isOpen: false,
           },
