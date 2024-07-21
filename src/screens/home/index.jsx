@@ -1,12 +1,12 @@
 import React from 'react';
 import Hero from '../../components/hero';
-import Vision from '../../components/vision';
 import Brands from '../../components/Brands';
 import Footer from '../../components/footer';
 import Team from '../../components/Team';
 import FAQ from '../../components/FAQ';
 import Tokenomics from '../../components/tokenomics';
 import RoadMap from '../../components/RoadMap';
+import About from '../../components/About/About';
 const Home = () => {
   return (
     <div className=''>
@@ -14,9 +14,10 @@ const Home = () => {
     <div className=' tw-overflow-x-hidden'>
     <Brands/>
     </div>
-      {/* <Vision /> */}
-      {/* <Tokenomics/> */}
-      {/* <RoadMap/> */}
+      
+      <About/>
+      <Tokenomics/>
+      <RoadMap/>
       <Team/>
       <FAQ/>
       <Footer/>

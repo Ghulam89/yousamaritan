@@ -201,16 +201,22 @@ GET VIDEO <FaArrowRight color="#456DA7" />
                    
 
                    
-                    <div className=" tw-flex tw-gap-3 tw-py-4">
+                    <div className=" tw-flex tw-border-b tw-border-[#456DA7] tw-gap-3 tw-py-4">
                       <Button
                         label={"Buy Now"}
                         className={"  tw-py-1 tw-w-full"}
                       />
-                      {/* <Button
-                        label={"Buy & Stake"}
-                        className={"  tw-py-1 tw-w-full"}
-                      /> */}
+                     
                     </div>
+
+
+
+                    <div className=" tw-pt-6 tw-flex tw-justify-center ">
+                      <p className=" tw-text-sm  tw-font-poppins tw-font-semibold">REFERRAL DETAILS</p>
+                    </div>
+
+
+
 
                   
                   </div>
