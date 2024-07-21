@@ -87,13 +87,13 @@ const FAQ = () => {
           },
           {
             key:14,
-            title: "14. What is the future vision for YouSamaritan?**",
+            title: "What is the future vision for YouSamaritan?**",
             data: "Our vision is to become the leading decentralized platform for charitable giving, creating a global community united by the common goal of making a positive impact. We aim to continuously innovate and expand our platform to support more causes and reach more people worldwide. When you sign up and become a donor, you also become a part-owner and philanthropist in YouSamaritan. Philanthropists are defined as people who would like to make this world a better place. That makes you a Good Samaritan as well.",
             isOpen: false,
           },
           {
             key:15,
-            title: "14. What is the future vision for YouSamaritan?**",
+            title: "What if I refer someone?",
             data: "Our vision is to become the leading decentralized platform for charitable giving, creating a global community united by the common goal of making a positive impact. We aim to continuously innovate and expand our platform to support more causes and reach more people worldwide. When you sign up and become a donor, you also become a part-owner and philanthropist in YouSamaritan. Philanthropists are defined as people who would like to make this world a better place. That makes you a Good Samaritan as well.",
             isOpen: false,
           }

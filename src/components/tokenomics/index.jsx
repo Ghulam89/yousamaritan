@@ -2,10 +2,10 @@ import React from "react";
 
 const Tokenomics = () => {
   return (
-    <div id="tokenSection" className="  tw-bg-[#456DA7]   tw-py-14">
-      <h1 className=" tw-text-white  tw-text-center tw-font-semibold tw-text-4xl">
+    <div id="tokenSection" className="  tw-bg-[#456DA7]   tw-my-14">
+      {/* <h1 className=" tw-text-white  tw-text-center tw-font-semibold tw-text-4xl">
         TOKENOMICS
-      </h1>
+      </h1> */}
 
       <div className="container ">
         <div className="row">

@@ -5,8 +5,9 @@ import Header from "../header";
 import Counter from "../Counter";
 import VideoPlayer from "../videoPlayer";
 import { FaAngleUp } from "react-icons/fa";
+import { PiCopyLight } from "react-icons/pi";
 const Hero = () => {
-  const [selectedCurrency, setSelectedCurrency] = useState("USDT");
+  const [selectedCurrency, setSelectedCurrency] = useState("MATIC");
 
   const handleSelect = (currency) => {
     setSelectedCurrency(currency);
@@ -22,7 +23,7 @@ const Hero = () => {
   const getBorderColor = (currency) => {
     return selectedCurrency === currency
       ? "tw-border-[#00F0FF] tw-border-2"
-      : "tw-border-transparent";
+      : "tw-border-[#456DA7]";
   };
 
   const [selectedButton, setSelectedButton] = useState(null);
@@ -66,15 +67,26 @@ const Hero = () => {
                 className={"  tw-mt-7"}
                 
               />
-
-              <button
-                onClick={() => setOpenVideo(true)}
+              {!openVideo === true ?(
+                 <button
+                 onClick={() => setOpenVideo(true)}
+                 
+                 className={"  tw-bg-white tw-px-5  tw-gap-2 tw-rounded-md  tw-border-[#456DA7] tw-flex tw-items-center  tw-text-[#456DA7] tw-border tw-mt-7"}
+                 
+               >
+ GET VIDEO <FaArrowRight color="#456DA7" />
+               </button>
+              ):(
+                 <button
+                onClick={() => setOpenVideo(false)}
                 
                 className={"  tw-bg-white tw-px-5  tw-gap-2 tw-rounded-md  tw-border-[#456DA7] tw-flex tw-items-center  tw-text-[#456DA7] tw-border tw-mt-7"}
                 
               >
-GET VIDEO <FaArrowRight color="#456DA7" />
+GET SAMARITAN <FaArrowRight color="#456DA7" />
               </button>
+              )}
+             
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
@@ -121,6 +133,12 @@ GET VIDEO <FaArrowRight color="#456DA7" />
                       </div>
                     </div>
 
+
+                    <div className=" tw-border-2 tw-px-3 tw-py-1.5 tw-rounded-md tw-mb-2 tw-border-[#456DA7]">
+                      <span className="tw-text-[#456DA7]  tw-flex tw-items-center tw-gap-2  m-0">REF LINK  <PiCopyLight  color="#456DA7" /> </span>
+                        <p className=" m-0 tw-text-[#456DA7]">https://www.yousmaritan.com/?ref=0x93...a89</p>
+                    </div>
+
                     <div className="  tw-text-center tw-pb-4 tw-pt-0">
                       <p className=" tw-font-poppins tw-m-0 tw-text-black">
                         Your Purchased $EBM = 0
@@ -130,9 +148,7 @@ GET VIDEO <FaArrowRight color="#456DA7" />
 
                     <div className="tw-flex tw-w-full tw-gap-3 tw-justify-center">
                       <div
-                        className={`tw-rounded-md border tw-w-full tw-h-[48px] tw-border-[#456DA7] tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2  ${getBorderColor(
-                          "MATIC"
-                        )}`}
+                        className={`tw-rounded-md  tw-w-full tw-h-[48px]  tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2 ${selectedCurrency==="MATIC"?' tw-border-2 tw-border-[#456DA7]': 'tw-border-2 border'}`}
                         onClick={() => handleSelect("MATIC")}
                       >
                         <div>
@@ -144,9 +160,7 @@ GET VIDEO <FaArrowRight color="#456DA7" />
                         <p className="tw-m-0 tw-text-black">MATIC</p>
                       </div>
                       <div
-                        className={`tw-rounded-md tw-w-full tw-h-[48px] tw-border-[#456DA7] tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2  ${getBorderColor(
-                          "USDT"
-                        )}`}
+                        className={`tw-rounded-md  tw-w-full tw-h-[48px]  tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2 ${selectedCurrency==="USDT"?' tw-border-2 tw-border-[#456DA7]': 'tw-border-2 border'}`}
                         onClick={() => handleSelect("USDT")}
                       >
                         <div>

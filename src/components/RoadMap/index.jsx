@@ -14,35 +14,113 @@ const RoadMap = () => {
         <div className="tw-relative ">
           <img
             src={require("../../assets/images/card_bg_t.png")}
-            className="tw-mx-auto"
+            className="tw-mx-auto "
           />
-          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-0 tw-left-[49%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-3 tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-0 tw-left-[51%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-4 tw-left-[51%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
           </div>
           <div className="tw-hidden sm:tw-block tw-absolute tw-top-32 tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-32 tw-left-[41%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-32 tw-left-[38%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[12%] tw-right-[48%] tw-transform tw--translate-y-1/2">
-            <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
-          </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[24%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+
+
+
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-64 tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[30%] tw-right-[48%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-64 tw-left-[51%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-96 tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[50%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-96 tw-left-[38%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
+          </div>
+
+
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-[20%] tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[20%] tw-left-[51%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-[25%] tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[25%] tw-left-[38%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
+          </div>
+
+
+
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-[30%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[30%] tw-left-[51%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-[35%] tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[35%] tw-left-[38%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
+          </div>
+
+
+
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-[40%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[40%] tw-left-[51%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-[45%] tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[45%] tw-left-[38%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
+          </div>
+
+
+          
+          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-[50%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[50%] tw-left-[51%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-[55%] tw-z-10 tw-right-[48%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
+          </div>
+          <div className="tw-hidden sm:tw-block tw-absolute tw-top-[55%] tw-left-[38%] tw-transform tw--translate-y-1/2">
+            <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
+          </div>
+
+
+          
+         
           <div className="tw-absolute tw-top-0  tw-left-0 tw-right-0 tw-overflow-x-hidden">
-            <div className=" row  tw-items-center">
+            <div className="  tw-grid tw-grid-cols-2  tw-items-center">
             <RoadMapPhase
+                phase="2009 -  2023"
+                title="Analysis l Assessment"
+                para="Detailed examination of the subject to understand behaviour and to determine features for the project."
+                items={[
+                  "Establishing the core team and advisory board.",
+                  "Conducting market research and feasibility studies.",
+                  "Community benefiting business model and tokenomics.",
+                  "Launching the presale phase to secure early investments and community support and participation.",
+                ]}
+              />
+            <RoadMapPhase
+            className={' tw-pt-14'}
                 phase="2009 -  2023"
                 title="Analysis l Assessment"
                 para="Detailed examination of the subject to understand behaviour and to determine features for the project."
@@ -177,14 +255,14 @@ const RoadMap = () => {
   );
 };
 
-const RoadMapPhase = ({ phase, title, items,para}) => (
-  <div className="col-lg-6 col-md-6 col-sm-6">
+const RoadMapPhase = ({ phase, title, items,para,className}) => (
+  <div className="">
     <div className="row ">
-      <div className="col-md-11   tw-mx-auto">
-        <div className=" tw-p-7 tw-px-32 tw-pt-0 tw-rounded-md">
-          <Button label={phase} className="tw-py-1 tw-font-poppins tw-rounded-full" />
+      <div className={`col-md-11   tw-mx-auto `}>
+        <div className={`md:tw-px-32 tw-px-0 tw-pt-0 tw-rounded-md`}>
+          <button   className="tw-py-2.5 tw-font-poppins tw-rounded-full  tw-bg-button-gradient tw-text-white  tw-w-40 " >{phase}</button>
           <h1 className="tw-text-black tw-font-semibold tw-text-[28px] tw-font-poppins tw-pt-4">{title}</h1>
-          <p className=" tw-text-black tw-text-[20px]">{para}</p>
+          <p className={`tw-text-black tw-text-[20px]`}>{para}</p>
         </div>
       </div>
     </div>

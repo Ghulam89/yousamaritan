@@ -18,16 +18,18 @@ const Team = () => {
               <div className=" tw-text-center tw-rounded-lg">
                 <div className="">
                   
-                  <div className="">
-                    <img
+                  <div className="row">
+                  <div className=" col-md-9 tw-mx-auto">
+                  <img
                       src={member.image}
                       className=" tw-mx-auto"
                       alt={member.name}
                     />
                   </div>
+                  </div>
                 </div>
                 <div className="tw-pb-8 ">
-                  <h3 className=" tw-text-white tw-text-xl tw-font-poppins tw-font-bold tw-uppercase">
+                  <h3 className=" tw-text-white tw-text-xl tw-font-poppins  ">
                     {member.name}
                   </h3>
                   <p className="tw-text-[#A4B4C3] m-0">{member.role}</p>
@@ -57,8 +59,8 @@ const Team = () => {
 
 const teamMembers = [
   {
-    name: "Rayman, C., M.Sc",
-    role: "Founder & CO",
+    name: "Ty JavellanA, CPA",
+    role: "Finance & Investment",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
@@ -67,8 +69,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "Aaron, H.",
-    role: "Head of Technology",
+    name: "Jose Cliff Romos",
+    role: "Strategy & Innovation",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
@@ -77,8 +79,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "Blade, A., Ph.D.",
-    role: "Legal Affairs",
+    name: "Dr. Jesus Acantilado",
+    role: "Founder | Medical Director",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
@@ -87,8 +89,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "Buzz Master",
-    role: "Marketing",
+    name: "Guillermo Tabligan",
+    role: "CEO, Geer IT Solution",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
@@ -97,8 +99,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "Buzz Master",
-    role: "Marketing",
+    name: "Atty. Abel Almario",
+    role: "Corporate Lagal Advisor",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
@@ -107,8 +109,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "Buzz Master",
-    role: "Marketing",
+    name: "Pastor Ron Jaworski",
+    role: "Ethereal |Spiritual Leader",
     image: require("../../assets/images/user.png"),
     links: [
       { url: "", icon: "ic_sharp-discord.png", alt: "Discord" },
