@@ -252,7 +252,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
 
 
     {isExpanded && (
-        <div className="">
+        <div className=" tw-overflow-x-auto">
           <table className="tw-min-w-full tw-mb-0">
           <thead className="tw-border-t tw-border-b tw-border-[#456DA7] tw-bg-primary">
             <tr className="tw-rounded-lg tw-whitespace-nowrap">
