@@ -9,8 +9,8 @@ const Tokenomics = () => {
 
       <div className="container ">
         <div className="row">
-          <div className="col-md-11 tw-mx-auto">
-          <img src={require("../../assets/images/tokens.png")} />
+          <div className="col-md-12 tw-mx-auto">
+          <img src={require("../../assets/images/tokens.png")} className=" tw-w-full" />
           </div>
         </div>
       </div>

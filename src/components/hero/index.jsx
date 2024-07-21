@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "../Button";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaAngleDown, FaArrowRight } from "react-icons/fa6";
 import Header from "../header";
 import Counter from "../Counter";
 import VideoPlayer from "../videoPlayer";
@@ -122,7 +122,7 @@ GET VIDEO <FaArrowRight color="#456DA7" />
 
                     <div className="tw-flex tw-w-full tw-gap-3 tw-justify-center">
                       <div
-                        className={`tw-rounded-md  tw-border-[#456DA7] tw-border-2 tw-h-[48px] tw-w-full tw-justify-between tw-px-3 tw-flex tw-items-center tw-mt-2 tw-bg-gradient ${getBorderColor(
+                        className={`tw-rounded-md border tw-w-full tw-h-[48px] tw-border-[#456DA7] tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2  ${getBorderColor(
                           "MATIC"
                         )}`}
                         onClick={() => handleSelect("MATIC")}
@@ -212,8 +212,144 @@ GET VIDEO <FaArrowRight color="#456DA7" />
 
 
                     <div className=" tw-pt-6 tw-flex tw-justify-center ">
-                      <p className=" tw-text-sm  tw-font-poppins tw-font-semibold">REFERRAL DETAILS</p>
+                      <p className=" tw-flex  tw-gap-3 tw-items-center tw-text-md  tw-font-poppins tw-font-semibold">REFERRAL DETAILS <FaAngleDown/> </p>
                     </div>
+
+
+
+                    <table className="tw-min-w-full tw-mb-0">
+                    <thead className="   tw-border-t tw-border-b tw-border-[#456DA7] tw-bg-primary">
+                      <tr className=" tw-rounded-lg  tw-whitespace-nowrap ">
+                        <th
+                          scope="col"
+                          className=" tw-text-sm tw-text-[#456DA7]  tw-font-bold tw-px-6 tw-py-4"
+                        >
+                          LEVEL
+                        </th>
+                        <th
+                          scope="col"
+                          className=" tw-text-sm tw-text-[#456DA7]  tw-font-bold tw-px-6 tw-py-4"
+                        >
+                          PERCENTAGE
+                        </th>
+
+
+
+                        <th
+                          scope="col"
+                          className=" tw-text-sm tw-text-[#456DA7]  tw-font-bold tw-px-6 tw-py-4"
+                        >
+                          Team
+                        </th>
+
+                        
+
+                        <th
+                          scope="col"
+                          className="tw-text-sm  tw-text-[#456DA7]   tw-font-bold tw-px-6 tw-py-4"
+                        >
+                          EARNING
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="">
+                   
+                          <>
+                            <tr className="bg-white border-t  rounded-md">
+                            <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                 1
+                                </span>
+                              </td>
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                 5%
+                                </span>
+                              </td>
+
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline  tw-font-poppins  bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+                            
+                              
+                            
+                            
+                            </tr>
+
+
+                            <tr className="bg-white border-t  rounded-md">
+                            <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                 2
+                                </span>
+                              </td>
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                3%
+                                </span>
+                              </td>
+
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline  tw-font-poppins  bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+                            
+                              
+                            
+                            
+                            </tr>
+
+                            
+                            <tr className="bg-white border-t  rounded-md">
+                            <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                 3
+                                </span>
+                              </td>
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                1%
+                                </span>
+                              </td>
+
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black tw-font-poppins  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline   bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+
+                              <td className="align-middle text-sm font-normal px-6 py-2 whitespace-nowrap text-center">
+                                <span className=" text-base text-black  py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline  tw-font-poppins  bg-green-200  rounded-full">
+                                0
+                                </span>
+                              </td>
+                            
+                              
+                            
+                            
+                            </tr>
+                          </>
+                       
+                    </tbody>
+                  </table>
 
 
 

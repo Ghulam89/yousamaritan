@@ -6,55 +6,97 @@ const FAQ = () => {
         {
           key: 1,
           title:
-            "What is Smariten Token?",
-          data: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more",
-          isOpen: false,
+            "What is YouSamaritan?",
+          data:"Do you know anyone who doesn’t have a problem? If your answer is none, then this platform is for everyone. It’s a revolutionary anti-depression platform – your anonymous lifeline! YouSamaritan is the first and only platform that enables users to transform passion into compassion. The platform leverages the advantages of blockchain technology, such as immutability, transparency, and security, to create a more efficient and secure way to advice and make confession. Watch this short video to learn exactly what YouSamaritan does",
+          isOpen: false, 
         },
         {
           key: 2,
           title:
-            "What is Staking during Presale?",
-            data: "This staking opportunity is exclusive to the presale buyers to grow their investment with native $EBM token rewards during the presale before listing $EBM for trade for limited period.",
+            "What makes YouSamaritan a brilliant project?",
+            data: "YouSamaritan is primarily a donation platform. You may claim tax deductions when you make a donor purchase of Samaritan Token. If you decide to keep the profit, you instantly become an investor. It’s your choice! It’s a multi-purpose token. It has several use case. It’s a Utility Token. It’s a donation coin + DEX coin + ecommerce coin. We are tagged as the Shit Coin Killer. Watch this video to know what makes YouSamaritan a brilliant project: https://youtu.be/_ndSsSeXU1Y",
             isOpen: false,
         },
         {
           key: 3,
           title:
-            "What cryptocurrencies can I use to purchase?",
-            data: "By staking $EBM tokens, community members can earn passive income through daily automated distribution of 40-60% of the company's revenue, fostering community engagement and financial growth.",
+            " How can I make a donor purchase of Samaritan tokens?",
+            data: "Samaritan tokens can be purchased during our token sale rounds or through supported cryptocurrency exchanges. Detailed instructions are available on our web page. Click here.",
             isOpen: false,
         },
         {
           key: 4,
-          title: "How can I participate in the Smaritan Token sale?",
-          data: "Upon starting of operations, the program start will be announced. Like staking in native token rewards but this staking will reward in USDT/USDC on daily basis.",
+          title: "What are the benefits of owning Samaritan tokens early?",
+          data: "Early donor purchase benefit from lower token prices, as the price increases through nine scheduled rounds... Early adoption also provides more significant rewards and potential appreciation as the platform grows",
           isOpen: false,
         },
         {
           key: 5,
           title:
-            "How do I benefit from the Smaritan Token?",
-            data: "Other than Buy4Less and Stake4PIE, we aim to boost growth of True DeFi blockchains like Bitcoin, Litecoin, Zilliqa, Ethereum Classic, Raven, Kaspa, Dodge, BlockDAG etc.",
+            "How does YouSamaritan ensure the security of my donor purchase?",
+            data: "YouSamaritan employs advanced blockchain technology, smart contracts, and industry-standard security protocols to safeguard your investments. Regular audits and security assessments are conducted to maintain the highest security standards",
             isOpen: false,
         },
         {
           key: 6,
-          title: "How do I benefit from the Smaritan Token?",
-          data: "Tokens bought through presale are not transferable and tradable until listed for trading officially. Tokens allocated for our operations, marketing, teams and advisors are locked with linear vesting for periods from 2- 5 years.",
+          title: "What can I do with Samaritan tokens?",
+          data: "You can claim tax deductions form the donor purchase of Samaritan Token. . If you decide to keep the profit, you instantly become an investor. Samaritan token is a multi-purpose token. It has several use case. It’s a Utility Token. It’s a donation coin + DEX coin + ecommerce coin.",
           isOpen: false,
         },
         {
             key: 7,
-            title: "How do I benefit from the Smaritan Token?",
-            data: "We strongly advise Stake, HODL $EBM from day one for native token rewards and to reap benefits from Buy4Less and Stake4PIE programs.",
+            title: "How do I support a cause using the YouSamaritan platform?",
+            data: "Supporting a cause is simple. Select the foundation, charity institution, non-profit organization or church you wish to support, choose the amount of Samaritan tokens you want to donate, and complete the transaction through our secure platform",
             isOpen: false,
           },
           {
             key: 8,
-            title: "How do I benefit from the Smaritan Token?",
-            data: "Yes, our smart contract audits can be verified here.",
+            title: "How can I track the impact of my donations?",
+            data: "Every donation made through YouSamaritan is recorded on the blockchain, providing a transparent and immutable record. Donors can track the progress and impact of their contributions through detailed project updates and reports on our platform.",
             isOpen: false,
           },
+          {
+            key: 9,
+            title: "Is there a minimum or maximum amount required to donate?",
+            data: "You can contribute as much or as little as you wish, making it accessible for everyone to support the causes they care about. Watch this video to know the minimum amount required to donate: https://youtu.be/_ndSsSeXU1Y",
+            isOpen: false,
+          },
+          {
+            key:10,
+            title: " Can I earn rewards for participating in the YouSamaritan community?",
+            data: "Yes, community members can earn rewards by participating in various activities such as staking Samaritan tokens, contributing to projects, and engaging in platform governance. These rewards are designed to incentivize active participation and support.",
+            isOpen: false,
+          },
+          {
+            key:11,
+            title: "How does YouSamaritan ensure transparency in fund allocation?",
+            data: "Transparency is a core principle of YouSamaritan. All transactions and fund allocations are recorded on the blockchain, making them publicly accessible and verifiable. This ensures that all funds are used as intended and fosters trust within the community.",
+            isOpen: false,
+          },
+          {
+            key:12,
+            title: "What fees are associated with using the YouSamaritan platform?",
+            data: "The YouSamaritan platform charges minimal fees to cover transaction costs and platform maintenance. Detailed information about fees is available on our website, ensuring complete transparency.",
+            isOpen: false,
+          },
+          {
+            key:13,
+            title: "How can I get involved with the YouSamaritan community?",
+            data: "You can get involved by joining our community forums, participating in governance discussions, supporting projects, and following us on social media. We encourage active participation and value the contributions of our community members",
+            isOpen: false,
+          },
+          {
+            key:14,
+            title: "14. What is the future vision for YouSamaritan?**",
+            data: "Our vision is to become the leading decentralized platform for charitable giving, creating a global community united by the common goal of making a positive impact. We aim to continuously innovate and expand our platform to support more causes and reach more people worldwide. When you sign up and become a donor, you also become a part-owner and philanthropist in YouSamaritan. Philanthropists are defined as people who would like to make this world a better place. That makes you a Good Samaritan as well.",
+            isOpen: false,
+          },
+          {
+            key:15,
+            title: "14. What is the future vision for YouSamaritan?**",
+            data: "Our vision is to become the leading decentralized platform for charitable giving, creating a global community united by the common goal of making a positive impact. We aim to continuously innovate and expand our platform to support more causes and reach more people worldwide. When you sign up and become a donor, you also become a part-owner and philanthropist in YouSamaritan. Philanthropists are defined as people who would like to make this world a better place. That makes you a Good Samaritan as well.",
+            isOpen: false,
+          }
       ]);
     
       const toggleAccordion = (accordionkey) => {

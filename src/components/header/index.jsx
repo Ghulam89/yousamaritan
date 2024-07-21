@@ -110,28 +110,17 @@ const Header = () => {
           className="tw-text-3xl lg:tw-hidden tw-pt-2 tw-z-50"
           onClick={() => setOpen(!open)}
         >
-          {open ? <MdOutlineClose color="white" /> : <MdMenu color="white" />}
+          {open ? <MdOutlineClose color="black" /> : <MdMenu color="black" />}
         </div>
 
         {/* Mobile nav */}
         <div
           className={`
-            lg:tw-hidden   tw-bg-black  tw-bg-cover  tw-bg-Hero tw-fixed tw-w-full tw-top-0 tw-overflow-y-auto tw-bottom-0 tw-leading-10 tw-py-10 
+            lg:tw-hidden   tw-bg-white  tw-fixed tw-w-full tw-top-0 tw-overflow-y-auto tw-bottom-0 tw-leading-10 tw-py-10 
             tw-duration-500 ${open ? "tw-left-0" : "tw-left-[-100%]"}
           `}
         >
-          <div className=" tw-absolute  tw-h-screen   tw-top-0 tw-right-0">
-            <img
-              src={require("../../assets/images/right_image.png")}
-              className=" tw-w-full tw-h-full"
-            />
-          </div>
-          <div className=" tw-absolute  tw-h-screen  tw-top-0 tw-left-0">
-            <img
-              src={require("../../assets/images/left_image.png")}
-              className=" tw-w-full tw-h-full"
-            />
-          </div>
+         
 
           <div className="tw-pb-5 tw-px-8">
             <img
