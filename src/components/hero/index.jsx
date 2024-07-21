@@ -39,7 +39,7 @@ const Hero = () => {
   };
 
   const openPdfInNewTab = () => {
-    const pdfUrl = require("../../assets/images/EBM Whitepaper.pdf");
+    const pdfUrl = require("../../assets/images/YouSamaritan White Paper v2.pdf");
     window.open(pdfUrl, "_blank");
   };
 
@@ -146,7 +146,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                      
                     </div>
 
-                    <div className="tw-flex tw-w-full tw-gap-3 tw-justify-center">
+                    <div className="tw-flex tw-w-full tw-gap-3">
                       <div
                         className={`tw-rounded-md  tw-w-full tw-h-[48px]  tw-justify-between tw-pr-5 tw-flex tw-items-center tw-mt-2 ${selectedCurrency==="MATIC"?' tw-border-2 tw-border-[#456DA7]': 'tw-border-2 border'}`}
                         onClick={() => handleSelect("MATIC")}
@@ -173,8 +173,15 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                       </div>
                     
                     </div>
+                    <div className="  tw-gap-3 tw-justify-center  tw-flex tw-items-center tw-text-center tw-pt-4 tw-pb-2">
+                      <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>
+                      <p className=" tw-uppercase tw-font-medium tw-font-poppins tw-m-0 tw-text-black">
+                      {selectedCurrency==="MATIC"?'Matic':'USDT'} Bailance = <span className=" tw-text-[#456DA7] tw-font-poppins">505</span>
+                      </p>
+                      <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>
 
-                    <div className=" tw-flex tw-gap-3 tw-pt-5">
+                    </div>
+                    <div className=" tw-flex tw-gap-3 ">
                       <div className=" tw-w-full">
                         <p className=" tw-m-0 tw-text-black tw-font-poppins sm:tw-text-base tw-text-sm">
                           $ {selectedCurrency} Matic you pay

@@ -155,10 +155,15 @@ const Staking = () => {
 
             <div className="tw-flex-col tw-flex tw-justify-between tw-h-96 tw-p-6 tw-py-10">
               <div className="tw-flex tw-flex-col tw-gap-4">
+                
                 <div
                   className="tw-relative tw-w-full tw-inline-block"
                   ref={dropdownRef}
                 >
+                   <p className="tw-font-medium tw-text-black">
+                      Select Amount:
+                    </p>
+
                   <button
                     onClick={handleToggle}
                     className="tw-border-[#456DA7] tw-flex tw-justify-between tw-border tw-w-full tw-text-black tw-py-5 tw-items-center tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
@@ -173,7 +178,7 @@ const Staking = () => {
                     </p>
                   </button>
                   {isOpen && (
-                    <ul className="tw-absolute tw-p-0 tw-z-20 tw-bg-[#141414] tw-text-black tw-shadow-md tw-rounded-md tw-mt-2 tw-w-full">
+                    <ul className="tw-absolute tw-p-0 tw-z-20 tw-bg-white border  tw-text-black tw-shadow-lg tw-rounded-md tw-mt-2 tw-w-full">
                       {options.map((option) => (
                         <li
                           key={option}
@@ -200,25 +205,25 @@ const Staking = () => {
                   >
                     <button
                       onClick={handleToggle2}
-                      className="tw-border-[#2596EF] tw-flex tw-items-center tw-justify-between tw-border tw-w-full tw-text-white tw-py-3 tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
+                      className="tw-border-[#2596EF] tw-flex tw-items-center tw-justify-between tw-border tw-w-full tw-text-black tw-py-3 tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
                     >
                       <p className="tw-m-0">
                         {selectedOption2 || "Select an option"}
                       </p>
                       <div className="tw-flex tw-items-center tw-gap-2">
                         <p className="tw-text-sm tw-m-0">PLP</p>
-                        <button className="tw-bg-button-gradient tw-py-1.5 tw-px-1 tw-text-sm tw-rounded-md">
+                        <button className=" text-white tw-bg-button-gradient tw-py-1.5 tw-px-1 tw-text-sm tw-rounded-md">
                           Max
                         </button>
                       </div>
                     </button>
                     {isOpen2 && (
-                      <ul className="tw-absolute tw-p-0 tw-bg-[#141414] tw-text-black tw-shadow-md tw-rounded-md tw-mt-2 tw-w-full">
+                      <ul className="tw-absolute tw-p-0 tw-bg-white border tw-text-black tw-shadow-lg tw-rounded-md tw-mt-2 tw-w-full">
                         {options2.map((option) => (
                           <li
                             key={option}
                             onClick={() => handleOption2Click(option)}
-                            className="tw-py-2 tw-px-4 tw-cursor-pointer tw-text-white hover:tw-bg-button-gradient"
+                            className="tw-py-2 tw-px-4 tw-cursor-pointer tw-text-black hover:tw-bg-button-gradient"
                           >
                             {option}
                           </li>
@@ -264,7 +269,7 @@ const Staking = () => {
                 >
                   <button
                     onClick={handleToggle3}
-                    className="tw-border-[#2596EF] tw-flex tw-justify-between tw-border tw-w-full tw-text-white tw-py-5 tw-items-center tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
+                    className="tw-border-[#2596EF] tw-flex tw-justify-between tw-border tw-w-full tw-text-black tw-py-5 tw-items-center tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
                   >
                     <p className="tw-m-0">
                       {selectedOption3 || "Select an option"}
@@ -276,7 +281,7 @@ const Staking = () => {
                     </p>
                   </button>
                   {isOpen3 && (
-                    <ul className="tw-absolute tw-p-0 tw-z-20 tw-bg-[#141414] tw-text-black tw-shadow-md tw-rounded-md tw-mt-2 tw-w-full">
+                    <ul className="tw-absolute tw-p-0 tw-z-20 tw-bg-white tw-text-black tw-shadow-lg tw-rounded-md tw-mt-2 tw-w-full">
                       {options3.map((option) => (
                         <li
                           key={option}
@@ -379,7 +384,7 @@ const Staking = () => {
                     </p>
                   </button>
                   {isOpen4 && (
-                    <ul className="tw-absolute tw-p-0 tw-z-20 tw-bg-[#141414] tw-text-black tw-shadow-md tw-rounded-md tw-mt-2 tw-w-full">
+                    <ul className="tw-absolute tw-bg-white tw-p-0 tw-z-30 tw-bg- tw-text-[black] black tw-shadow-md tw-rounded-md tw-mt-2 tw-w-full">
                       {options4.map((option) => (
                         <li
                           key={option}
