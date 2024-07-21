@@ -204,12 +204,13 @@ const Staking = () => {
                     ref={dropdownRef2}
                   >
                     <button
-                      onClick={handleToggle2}
+                      // onClick={handleToggle2}
                       className="tw-border-[#2596EF] tw-flex tw-items-center tw-justify-between tw-border tw-w-full tw-text-black tw-py-3 tw-px-4 tw-rounded-md tw-text-[17.15px] tw-leading-3"
                     >
-                      <p className="tw-m-0">
+                      {/* <p className="tw-m-0">
                         {selectedOption2 || "Select an option"}
-                      </p>
+                      </p> */}
+                      <input className=" tw-w-full  tw-outline-none" />
                       <div className="tw-flex tw-items-center tw-gap-2">
                         <p className="tw-text-sm tw-m-0">PLP</p>
                         <button className=" text-white tw-bg-button-gradient tw-py-1.5 tw-px-1 tw-text-sm tw-rounded-md">
