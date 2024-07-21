@@ -175,7 +175,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                     </div>
                     <div className="  tw-gap-3 tw-justify-center  tw-flex tw-items-center tw-text-center tw-pt-4 tw-pb-2">
                       <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>
-                      <p className=" tw-uppercase tw-font-medium tw-font-poppins tw-m-0 tw-text-black">
+                      <p className=" tw-uppercase tw-font-medium tw-font-poppins tw-m-0 sm:text-md tw-text-black">
                       {selectedCurrency==="MATIC"?'Matic':'USDT'} Bailance = <span className=" tw-text-[#456DA7] tw-font-poppins">505</span>
                       </p>
                       <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>

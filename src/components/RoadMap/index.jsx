@@ -3,51 +3,51 @@ import Button from "../Button";
 
 const RoadMap = () => {
   return (
-    <div id="roadSection" className="  container   tw-py-12">
-      <div className=" sm:tw-py-16 sm:tw-pb-0 tw-pb-72">
+    <div id="roadSection" className="  container   tw-pb-12">
+      <div className="  sm:tw-pb-0 ">
         <div className=" tw-text-center">
-          <h1 className=" tw-text-[#456DA7] tw-text-3xl  tw-font-zen-dots"> Road Map</h1>
-          <p className="tw-text-white tw-leading-8">
+          {/* <h1 className=" tw-text-[#456DA7] tw-text-3xl  tw-font-zen-dots"> Road Map</h1> */}
+          {/* <p className="tw-text-white tw-leading-8">
             Our roadmap reflects our commitment to boost blockchains, innovation, DeFi growth, and sustainability, guiding us towards our vision of becoming a leader in the crypto mining industry and beyond.
-          </p>
+          </p> */}
         </div>
        
   
-  <div className="tw-relative">
+  {/* <div className="tw-relative">
           <img
             src={require("../../assets/images/card_bg_t.png")}
-            className="tw-mx-auto   tw-pr-3 sm:tw-block  tw-hidden"
+            className="tw-mx-auto   tw-pr-3"
           />
-          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-3 tw-left-[48%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-z-10  tw-absolute tw-top-3 tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-4 tw-left-[51%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute tw-top-4 tw-left-[51%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-32 tw-z-10 tw-right-[49%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute tw-top-32 tw-z-10 tw-right-[49%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-32 tw-left-[38%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute tw-top-32 tw-left-[38%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
           </div>
 
 
 
-          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute  tw-top-60 tw-left-[48%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-z-10 tw-absolute  tw-top-60 tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-60 tw-left-[51%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute tw-top-60 tw-left-[51%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/left_line.png")} alt="Left Arrow" className=" tw-w-36" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute   tw-top-96 tw-z-10 tw-right-[49%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute   tw-top-96 tw-z-10 tw-right-[49%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Right Arrow" />
           </div>
-          <div className="tw-hidden sm:tw-block tw-absolute tw-top-96 tw-left-[38%] tw-transform tw--translate-y-1/2">
+          <div className=" tw-absolute tw-top-96 tw-left-[38%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/right_line.png")} alt="Left Arrow" className=" tw-w-44" />
           </div>
 
 
-          <div className="tw-hidden tw-z-10 sm:tw-block tw-absolute tw-top-[20%] tw-left-[48%] tw-transform tw--translate-y-1/2">
+          <div className="tw-hidden tw-z-10 s tw-absolute tw-top-[20%] tw-left-[48%] tw-transform tw--translate-y-1/2">
             <img src={require("../../assets/images/circle.png")} alt="Left Arrow" />
           </div>
           <div className="tw-hidden sm:tw-block tw-absolute tw-top-[20%] tw-left-[51%] tw-transform tw--translate-y-1/2">
@@ -249,8 +249,9 @@ const RoadMap = () => {
       />
     </div>
   </div>
-</div>
-
+</div> */}
+{/* <img src={require('../../assets/images/road_map_mobile.png')} className=" tw-block sm:tw-hidden tw-w-full" /> */}
+<img src={require('../../assets/images/desktop_views.png')} className="  tw-mx-auto" />
       </div>
     </div>
   );
