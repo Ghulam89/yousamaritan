@@ -3,7 +3,7 @@ import Button from "../Button";
 
 const RoadMap = () => {
   return (
-    <div id="roadSection" className="     tw-py-12">
+    <div id="roadSection" className="  container   tw-py-12">
       <div className=" sm:tw-py-16 sm:tw-pb-0 tw-pb-72">
         <div className=" tw-text-center">
           <h1 className=" tw-text-[#456DA7] tw-text-3xl  tw-font-zen-dots"> Road Map</h1>
@@ -107,11 +107,11 @@ const RoadMap = () => {
 
 
           
-  <div className="tw-absolute tw-top-0 tw-left-0 tw-right-0 tw-overflow-x-hidden">
+  <div className="md:tw-absolute tw-relative tw-top-0 tw-left-0 tw-right-0 tw-overflow-x-hidden">
     <div className="tw-grid tw-grid-cols-2 tw-items-center">
       <RoadMapPhase
         phase="2009 -  2023"
-      
+    
         title="Analysis l Assessment"
         para="Detailed examination of the subject to understand behaviour and to determine features for the project."
         items={[
