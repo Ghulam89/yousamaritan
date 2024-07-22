@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaCar } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
@@ -27,9 +27,29 @@ const Header = () => {
       }
     }, 0);
   };
+  const [scrollBackground, setScrollBackground] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrollBackground(true);
+      } else {
+        setScrollBackground(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className=" tw-top-0 tw-relative tw-z-20">
+    <nav  className={`tw-top-0 tw-w-full tw-z-20 ${
+      scrollBackground ? "tw-bg-white sm:tw-bg-transparent tw-fixed" : ""
+    } sm:tw-relative md:tw-sticky`}>
       <div className="tw-flex tw-items-center tw-font-medium tw-h-32 container tw-mx-auto tw-justify-between">
         <div className="">
           <img
@@ -116,8 +136,8 @@ const Header = () => {
         {/* Mobile nav */}
         <div
           className={`
-            lg:tw-hidden   tw-bg-white  tw-fixed tw-w-full tw-top-0 tw-overflow-y-auto tw-bottom-0 tw-leading-10 tw-py-10 
-            tw-duration-500 ${open ? "tw-left-0" : "tw-left-[-100%]"}
+            lg:tw-hidden     tw-shadow-xl tw-bg-white  tw-fixed tw-w-full tw-top-0 tw-overflow-y-auto tw-bottom-0 tw-leading-10 tw-py-10 
+            tw-duration-500 ${open ? "tw-left-0" : "  tw-left-[-100%]"}
           `}
         >
          
