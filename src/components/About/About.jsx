@@ -30,21 +30,21 @@ const About = () => {
             <div className=' tw-flex tw-flex-wrap    sm:tw-justify-start tw-justify-center tw-w-full sm:tw-gap-6 tw-gap-3 tw-items-center'>
                 <div className=' tw-text-center '>
                     <h1 className=' tw-font-zen-dots   sm:tw-text-3xl tw-text-[18px] tw-text-[#456DA7]'>10M+</h1>
-                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>People Reched</p>
+                    <p className=' sm:tw-text-[14px] tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>People Reched</p>
                 </div>
-                <div className=' sm:tw-h-20 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
+                <div className=' sm:tw-h-18 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
 
                 </div>
                 <div className='  tw-text-center'>
                     <h1 className=' sm:tw-text-3xl  tw-text-[18px] tw-font-zen-dots tw-text-[#456DA7]'>12M+</h1>
-                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Social Media Engaement</p>
+                    <p className=' sm:tw-text-[14px] tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Social Media Engaement</p>
                 </div>
-                <div className=' sm:tw-h-20 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
+                <div className=' sm:tw-h-18 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
 
                 </div>
                 <div className='  tw-text-center'>
                     <h1 className=' sm:tw-text-3xl  tw-text-[18px] tw-font-zen-dots tw-text-[#456DA7]'>8M+</h1>
-                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Number of Media Mention</p>
+                    <p className=' sm:tw-text-[14px] tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Number of Media Mention</p>
                 </div>
               
             </div>

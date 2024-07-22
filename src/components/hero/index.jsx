@@ -68,9 +68,9 @@ const Hero = () => {
                 className={"  tw-mt-7"}
                 
               />
-              {!openVideo === true ?(
+              {openVideo === true ?(
                  <button
-                 onClick={() => setOpenVideo(true)}
+                 onClick={() => setOpenVideo(false)}
                  
                  className={"  tw-bg-white tw-px-5  tw-gap-2 tw-rounded-md  tw-border-[#456DA7] tw-flex tw-items-center  tw-text-[#456DA7] tw-border tw-mt-7"}
                  
@@ -79,7 +79,7 @@ const Hero = () => {
                </button>
               ):(
                  <button
-                onClick={() => setOpenVideo(false)}
+                onClick={() => setOpenVideo(true)}
                 
                 className={"  tw-bg-white tw-px-5  tw-gap-2 tw-rounded-md  tw-border-[#456DA7] tw-flex tw-items-center  tw-text-[#456DA7] tw-border tw-mt-7"}
                 
@@ -91,7 +91,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
-            {!openVideo === true ? (
+            {openVideo === true ? (
               <div className="row tw-relative">
                 <div className="col-md-10 tw-p-0 tw-mx-auto">
                   <div className="  tw-border-[#269FF0] tw-border-2 tw-rounded-2xl  sm:p-4  p-3 tw-h-auto tw-bg-cover bg-hero-cut">

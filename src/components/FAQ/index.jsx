@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Accordion from '../Accordion/Accordion';
+import { Link } from 'react-router-dom';
 
 const FAQ = () => {
     const [accordions, setAccordion] = useState([
@@ -16,6 +17,7 @@ const FAQ = () => {
             "What makes YouSamaritan a brilliant project?",
             data: "YouSamaritan is primarily a donation platform. You may claim tax deductions when you make a donor purchase of Samaritan Token. If you decide to keep the profit, you instantly become an investor. It’s your choice! It’s a multi-purpose token. It has several use case. It’s a Utility Token. It’s a donation coin + DEX coin + ecommerce coin. We are tagged as the Shit Coin Killer. Watch this video to know what makes YouSamaritan a brilliant project: https://youtu.be/_ndSsSeXU1Y",
             isOpen: false,
+            link:"https://youtu.be/_ndSsSeXU1Y"
         },
         {
           key: 3,
@@ -58,8 +60,9 @@ const FAQ = () => {
           {
             key: 9,
             title: "Is there a minimum or maximum amount required to donate?",
-            data: "You can contribute as much or as little as you wish, making it accessible for everyone to support the causes they care about. Watch this video to know the minimum amount required to donate: https://youtu.be/_ndSsSeXU1Y",
+            data: "You can contribute as much or as little as you wish, making it accessible for everyone to support the causes they care about. Watch this video to know the minimum amount required to donate: ",
             isOpen: false,
+            link:'https://youtu.be/_ndSsSeXU1Y'
           },
           {
             key:10,
@@ -94,8 +97,9 @@ const FAQ = () => {
           {
             key:15,
             title: "What if I refer someone?",
-            data: "Our vision is to become the leading decentralized platform for charitable giving, creating a global community united by the common goal of making a positive impact. We aim to continuously innovate and expand our platform to support more causes and reach more people worldwide. When you sign up and become a donor, you also become a part-owner and philanthropist in YouSamaritan. Philanthropists are defined as people who would like to make this world a better place. That makes you a Good Samaritan as well.",
+            data: "You will get a referral link. And when you refer someone to YouSamaritan, you are entitled to make 5 –10% share. Join our telegram group to learn more about the potential reward in successfully representing YouSamaritan: ",
             isOpen: false,
+            link:'https://t.me/OfficialYouSamarita',
           }
       ]);
     
@@ -122,8 +126,12 @@ const FAQ = () => {
           {accordions.map((accordion) => (
             <Accordion
               key={accordion.key}
+              
               title={accordion.title}
-              data={accordion.data}
+              data={<div>
+
+                 {accordion.data}<Link  to={`${accordion.link}`}>{accordion.link}</Link>
+              </div>}
               isOpen={accordion.isOpen}
               toggleAccordion={() => toggleAccordion(accordion.key)}
             />

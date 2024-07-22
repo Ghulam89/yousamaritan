@@ -247,7 +247,7 @@ const Staking = () => {
       title: "Unstake",
       content:(
         <>
-        <div className="tw-border tw-border-[#00F0FF] tw-rounded-md">
+        <div className="tw-border tw-border-[#456DA7] tw-rounded-md">
           <div className="tw-flex px-4 tw-py-2 tw-border-b tw-justify-between tw-items-center">
             <img src={require("../../assets/images/c5.png")} />
             <p className="tw-m-0 tw-text-black tw-text-2xl tw-font-bold">
@@ -344,7 +344,7 @@ const Staking = () => {
       title: "Reward",
       content:(
         <>
-        <div className="tw-border tw-border-[#00F0FF] tw-rounded-md">
+        <div className="tw-border tw-border-[#456DA7] tw-rounded-md">
           <div className="tw-flex tw-mb-4 px-4 tw-py-2 tw-border-b tw-justify-between tw-items-center">
             <img src={require("../../assets/images/c5.png")} />
             <p className="tw-m-0 tw-text-black tw-text-2xl tw-font-bold">

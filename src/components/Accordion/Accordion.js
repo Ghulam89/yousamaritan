@@ -1,5 +1,7 @@
 // Accordion.js
 
+import { Link } from 'react-router-dom';
+
 export default function Accordion(props) {
   return (
     <>
@@ -28,7 +30,7 @@ export default function Accordion(props) {
 
         </button>
         {props.isOpen && (
-        <div className="  tw-text-black  tw-font-light tw-pb-4 sm:tw-text-[16px] tw-text-[10px]">{props.data}</div>
+        <div className="  tw-text-black  tw-font-light tw-pb-4 sm:tw-text-[16px] tw-text-[10px]">{props.data}  </div>
       )}
       </div>
 

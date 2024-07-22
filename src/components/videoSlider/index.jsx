@@ -43,8 +43,8 @@ const VideoSlider = () => {
   };
 
   const brands = [
-    "ebm.mp4",
-    "ebm.mp4",
+    "video1.mp4",
+    "video2.mp4",
   ];
 
   return (
