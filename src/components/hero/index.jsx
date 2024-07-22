@@ -136,8 +136,8 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
 
 
                     <div className=" tw-border-2 tw-px-3 tw-py-1.5 tw-rounded-md tw-mb-2 tw-border-[#456DA7]">
-                      <span className="tw-text-[#456DA7]  tw-flex tw-items-center tw-gap-2  m-0">REF LINK  <PiCopyLight  color="#456DA7" /> </span>
-                        <p className=" m-0 tw-text-[#456DA7]">https://www.yousmaritan.com/?ref=0x93...a89</p>
+                      <span className="tw-text-[#456DA7] sm:tw-text-base tw-text-[12px]  tw-flex tw-items-center tw-gap-2  m-0">REF LINK  <PiCopyLight  color="#456DA7" /> </span>
+                        <p className=" m-0 sm:tw-text-base tw-text-[10px] tw-text-[#456DA7]">https://www.yousmaritan.com/?ref=0x93...a89</p>
                     </div>
 
                     <div className="  tw-text-center tw-pb-4 tw-pt-0">
