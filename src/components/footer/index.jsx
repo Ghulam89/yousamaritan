@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTelegram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -26,8 +27,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={'https://t.me/+9FfF7v_hUbNmZWQ8'} >
-                    <img src={require("../../assets/images/uil_instagram-alt.png")} />
+                  <Link to={'https://t.me/OfficialYouSamaritan'} >
+                  <FaTelegram size={30} color="#F9A11E" />
                   </Link>
                 </li>
                 <li>
