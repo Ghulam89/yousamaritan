@@ -103,10 +103,10 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                         Total Raised: <sapn className=" tw-text-lg tw-font-semibold tw-text-[#456DA7]"> $93,307.73 </sapn>
                       </p>
                       <div className=" tw-flex tw-justify-between tw-items-center">
-                        <p className=" tw-m-0 text-xl tw-font-poppins tw-text-[#456DA7]">
+                        <p className=" tw-m-0 sm:tw-text-base tw-text-[10px] tw-font-poppins tw-text-[#456DA7]">
                           Stage
                         </p>
-                        <p className=" tw-m-0 text-xl tw-font-poppins tw-text-[#456DA7]">
+                        <p className=" tw-m-0 sm:tw-text-base tw-text-[10px] tw-font-poppins tw-text-[#456DA7]">
                           Remaining
                         </p>
                       </div>
@@ -125,10 +125,10 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                       </div>
 
                       <div className=" tw-flex tw-justify-between tw-items-center">
-                        <p className=" tw-m-0   tw-font-poppins  tw-font-medium tw-text-black">
+                        <p className=" tw-m-0  sm:tw-text-base tw-text-[10px]  tw-font-poppins  tw-font-medium tw-text-black">
                           SMT = 0.0015
                         </p>
-                        <p className=" tw-m-0 tw-font-poppins  tw-font-medium  tw-text-black">
+                        <p className=" tw-m-0 sm:tw-text-base tw-text-[10px] tw-font-poppins  tw-font-medium  tw-text-black">
                           Next = 0.0018
                         </p>
                       </div>
@@ -141,7 +141,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                     </div>
 
                     <div className="  tw-text-center tw-pb-4 tw-pt-0">
-                      <p className=" tw-font-poppins tw-m-0 tw-text-black">
+                      <p className=" tw-font-poppins sm:tw-text-base tw-text-[10px] tw-m-0 tw-text-black">
                         Your Purchased $EBM = 0
                       </p>
                      
@@ -176,7 +176,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                     </div>
                     <div className="  tw-gap-3 tw-justify-center  tw-flex tw-items-center tw-text-center tw-pt-4 tw-pb-2">
                       <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>
-                      <p className=" tw-uppercase tw-font-medium tw-font-poppins tw-m-0 sm:text-md tw-text-black">
+                      <p className=" tw-uppercase tw-font-medium tw-font-poppins tw-m-0  sm:tw-text-lg tw-text-[10px] tw-text-black">
                       {selectedCurrency==="MATIC"?'Matic':'USDT'} Bailance = <span className=" tw-text-[#456DA7] tw-font-poppins">505</span>
                       </p>
                       <p className=" tw-w-24 m-0  tw-bg-[#456DA7] tw-h-[2px] "></p>
@@ -184,7 +184,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                     </div>
                     <div className=" tw-flex tw-gap-3 ">
                       <div className=" tw-w-full">
-                        <p className=" tw-m-0 tw-text-black tw-font-poppins sm:tw-text-base tw-text-sm">
+                        <p className=" tw-m-0 tw-text-black tw-font-poppins sm:tw-text-base tw-text-[10px]">
                           $ {selectedCurrency} Matic you pay
                         </p>
 
@@ -210,7 +210,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                       </div>
 
                       <div className=" tw-w-full">
-                        <p className="  tw-font-poppins tw-m-0 tw-text-black sm:tw-text-base tw-text-sm">
+                        <p className="  tw-font-poppins tw-m-0 tw-text-black sm:tw-text-base tw-text-[10px]">
                         Samaritan Receive
                         </p>
 
