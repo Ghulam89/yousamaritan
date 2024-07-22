@@ -29,9 +29,11 @@ const FAQ = () => {
     {
       key: 3,
       title: " How can I make a donor purchase of Samaritan tokens?",
-      data: "Samaritan tokens can be purchased during our token sale rounds or through supported cryptocurrency exchanges. Detailed instructions are available on our web page.",
+      data:<div>
+        <p>Samaritan tokens can be purchased during our token sale rounds or through supported cryptocurrency exchanges. Detailed instructions are available on our web page. <Link to={'#'}>Click here.</Link> </p>
+      </div>,
       isOpen: false,
-      link:'Click here.'
+      // link:'Click here.'
     },
     {
       key: 4,
