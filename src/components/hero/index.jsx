@@ -6,6 +6,7 @@ import Counter from "../Counter";
 import VideoPlayer from "../videoPlayer";
 import { FaAngleUp } from "react-icons/fa";
 import { PiCopyLight } from "react-icons/pi";
+import VideoSlider from "../videoSlider";
 const Hero = () => {
   const [selectedCurrency, setSelectedCurrency] = useState("MATIC");
 
@@ -52,12 +53,12 @@ const Hero = () => {
       <div className="container tw-relative tw-pt-6 tw-pb-28">
         <div className="row    g-5 tw-items-center">
           <div className="col-lg-6 col-md-12">
-            <h1 className=" tw-text-[#456DA7]  tw-font-semibold md:tw-text-5xl tw-text-4xl">
+            <h1 className=" tw-text-[#456DA7]  tw-font-zen-dots  md:tw-text-5xl tw-text-3xl">
             
               How YouSamaritan’s Time has Come.
              
             </h1>
-            <p className=" tw-text-black sm:tw-text-start tw-text-center tw-font-poppins tw-font-normal tw-leading-7 tw-pt-4 tw-text-lg t">
+            <p className=" tw-text-black sm:tw-text-start tw-text-center  tw-font-normal tw-leading-7 tw-pt-4 tw-text-lg t">
             It's unlikely that anyone goes through life without facing any struggles, challenges or problems. Challenges are a natural part of the human experience, and they can vary widely in nature and intensity. People may encounter difficulties in their personal relationships, work, health, or other aspects of life.
             </p>
             <div className=" tw-flex tw-gap-7 sm:tw-justify-start tw-justify-center">
@@ -93,7 +94,7 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
             {!openVideo === true ? (
               <div className="row tw-relative">
                 <div className="col-md-10 tw-p-0 tw-mx-auto">
-                  <div className="  tw-border-[#269FF0] tw-border-2 tw-rounded-2xl  p-4 tw-h-auto tw-bg-cover bg-hero-cut">
+                  <div className="  tw-border-[#269FF0] tw-border-2 tw-rounded-2xl  sm:p-4  p-3 tw-h-auto tw-bg-cover bg-hero-cut">
                     <h1 className=" tw-text-lg tw-pb-3 tw-text-[#456DA7]">NEXT PRICE INCREASE IN</h1>
                     <Counter />
 
@@ -361,7 +362,8 @@ GET SAMARITAN <FaArrowRight color="#456DA7" />
                 </div>
               </div>
             ) : (
-              <VideoPlayer src={require("../../assets/images/ebm.mp4")} />
+              // <VideoPlayer src={require("../../assets/images/ebm.mp4")} />
+              <VideoSlider/>
             )}
           </div>
         </div>

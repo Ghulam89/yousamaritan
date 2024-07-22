@@ -144,7 +144,9 @@ const Header = () => {
           <li>
             <Link
               to={"/"}
-              onClick={() => handleNavigate("/", "aboutSection")}
+              onClick={() => {
+                 setOpen(false);
+                handleNavigate("/", "aboutSection")}}
               className="tw-text-black"
             >
               About us
@@ -153,7 +155,9 @@ const Header = () => {
           <li>
             <Link
               to={"/"}
-              onClick={() => handleNavigate("/", "tokenSection")}
+              onClick={() => {
+                setOpen(false);
+                handleNavigate("/", "tokenSection")}}
               className="tw-text-black"
             >
               Tokenomics
@@ -162,14 +166,20 @@ const Header = () => {
           <li>
             <Link
               to={"/"}
-              onClick={() => handleNavigate("/", "roadSection")}
+              onClick={() =>{
+                setOpen(false);
+                handleNavigate("/", "roadSection")}}
               className="tw-text-black"
             >
               Road Map
             </Link>
           </li>
           <li>
-            <Link to={"#"} className="tw-text-black">
+            <Link   to={"/"}
+              onClick={() =>{
+                setOpen(false);
+                handleNavigate("/", "teamSection")}}
+              className="tw-text-black">
               Team
             </Link>
           </li>

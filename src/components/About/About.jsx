@@ -3,6 +3,14 @@ import Button from '../Button'
 import { FaArrowRight } from 'react-icons/fa6'
 // import EBM_Avenue from '../EBM_avenue'
 const About = () => {
+
+
+  const openPdfInNewTab = () => {
+    const pdfUrl = require("../../assets/images/YouSamaritan White Paper v2.pdf");
+    window.open(pdfUrl, "_blank");
+  };
+
+
   return (
     <div  id='aboutSection'  className='  tw-relative tw-py-20  tw-w-full tw-h-auto'>
           
@@ -19,29 +27,29 @@ const About = () => {
             YouSamaritan is the first and only platform that enables users to transform passion into compassion. The platform leverages the advantages of blockchain technology, such as immutability, transparency, and security, to create a more efficient and secure way to advice and make confession. Learn about this philanthropic and altruistic project.       </p>
         
            
-            <div className=' tw-flex tw-flex-wrap tw-justify-center tw-w-full tw-gap-6 tw-items-center'>
+            <div className=' tw-flex tw-flex-wrap    sm:tw-justify-start tw-justify-center tw-w-full sm:tw-gap-6 tw-gap-3 tw-items-center'>
                 <div className=' tw-text-center '>
-                    <h1 className=' tw-font-zen-dots tw-text-[#456DA7]'>10M+</h1>
-                    <p className=' tw-text-lg tw-text-[#456DA7] tw-font-medium'>People Reched</p>
+                    <h1 className=' tw-font-zen-dots   sm:tw-text-3xl tw-text-[18px] tw-text-[#456DA7]'>10M+</h1>
+                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>People Reched</p>
                 </div>
-                <div className=' tw-h-20 tw-w-[2px] tw-bg-[#456DA7]'>
+                <div className=' sm:tw-h-20 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
 
                 </div>
                 <div className='  tw-text-center'>
-                    <h1 className=' tw-font-zen-dots tw-text-[#456DA7]'>12M+</h1>
-                    <p className=' tw-text-lg tw-text-[#456DA7] tw-font-medium'>Social Media Engaement</p>
+                    <h1 className=' sm:tw-text-3xl  tw-text-[18px] tw-font-zen-dots tw-text-[#456DA7]'>12M+</h1>
+                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Social Media Engaement</p>
                 </div>
-                <div className=' tw-h-20 tw-w-[2px] tw-bg-[#456DA7]'>
+                <div className=' sm:tw-h-20 tw-h-12 tw-w-[2px] tw-bg-[#456DA7]'>
 
                 </div>
                 <div className='  tw-text-center'>
-                    <h1 className=' tw-font-zen-dots tw-text-[#456DA7]'>8M+</h1>
-                    <p className=' tw-text-lg tw-text-[#456DA7] tw-font-medium'>Number of Media Mention</p>
+                    <h1 className=' sm:tw-text-3xl  tw-text-[18px] tw-font-zen-dots tw-text-[#456DA7]'>8M+</h1>
+                    <p className=' sm:tw-text-lg tw-text-[9px] tw-text-[#456DA7] tw-font-medium'>Number of Media Mention</p>
                 </div>
               
             </div>
             <Button
-                
+                   onClick={()=>openPdfInNewTab()}
                 rIcons={<FaArrowRight color="#fff" />}
                 label={"White Paper"}
                 className={"  tw-mt-7"}
@@ -54,15 +62,11 @@ const About = () => {
             </div>
             <div className='col-lg-5 col-md-12'>
               <div className='row'>
-                <div className="col-md-10 tw-mx-auto">
-                   <div className=' tw-relative'> 
-                    <img src={require('../../assets/images/about.png')} alt='' />
-                    <div className=' tw-absolute -tw-right-20 -tw-top-6'>
-                     <img src={require('../../assets/images/lines_b.png')} alt='' />
-                    </div>
-                    <div className=' tw-absolute tw-left-0 -tw-top-10 -tw-z-10'>
-                     <img src={require('../../assets/images/circle_b.png')} alt='' />
-                    </div>
+                <div className="col-md-12 tw-mx-auto">
+                   <div className=' tw-relative '> 
+                    <img src={require('../../assets/images/about.png')}   className=' tw-w-full' alt='' />
+                    
+                   
                    </div>
                 </div>
               </div>

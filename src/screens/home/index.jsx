@@ -9,7 +9,7 @@ import RoadMap from '../../components/RoadMap';
 import About from '../../components/About/About';
 const Home = () => {
   return (
-    <div className=''>
+    <div className=' tw-overflow-x-hidden'>
       <Hero />
     <div className=' tw-overflow-x-hidden'>
     <Brands/>

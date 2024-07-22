@@ -36,7 +36,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-              <p className=" tw-text-xl tw-text-white tw-pt-6 tw-text-center">
+              <p className=" sm:tw-text-xl tw-text-sm tw-text-white tw-pt-6 tw-text-center">
               An NGO l Non-Governmental Organization I Powered by a BSP, EMI, and <br/> VASP Licensed Firm KYC, AML, CTF, Travel Rule and Sanctions Compliant
               </p>
             </div>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="tw-bg-button-gradient tw-w-full tw-py-2  tw-text-center">
-        <p className=" tw-text-lg tw-m-0 tw-text-white">
+        <p className=" sm:tw-text-lg tw-text-sm tw-m-0 tw-text-white">
         Central Office: 29th Floor, World Plaza, 5th Ave, BGC https://YouSamaritan,com
         </p>
       </div>
